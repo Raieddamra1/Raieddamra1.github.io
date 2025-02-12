@@ -69,12 +69,12 @@
 }
  
 html {
-    font-family: georgia, serif;
+    font-family: lovatolight, serif;
     font-size: 10px;
 }
   
 h1, h2 {
-    font-family: montserrat, sans-serif;
+    font-family: josefin_slabbold, sans-serif;
     letter-spacing: 2px;
 }
   
@@ -100,6 +100,7 @@ p, li {
 
 a { 
     outline: none;
+    text-decoration: underline;
 }
 
 a[href*="http"] {
@@ -109,11 +110,12 @@ a[href*="http"] {
 }
 
 a:link,a:visted{ 
-    color:#7b4f40;
+    color:#a66;
 }
 
 a:focus, a:hover {
     text-decoration: none;
+    color: #a66;
 }
 a:active{
     color: transparent;
@@ -151,12 +153,12 @@ nav li a { text-decoration: none;
   line-height: 3;
   text-align: center;
   font-size: 2.5rem;
-  border: 1px solid #7b4f40;
+  border: 1px solid #a66;
 }
 
 nav li a:focus,nav li a:hover{ 
     color: white;
-    background: #7b4f40;
+    background: #a66;
 }
 
 nav li a:active {
