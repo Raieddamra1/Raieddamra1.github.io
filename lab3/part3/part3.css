@@ -45,7 +45,7 @@
   /* WRITE YOUR CODE BELOW HERE */
 
   @font-face {
-    font-family: 'lovatolight';
+    font-family: 'lower-latin';
     src: url('fonts/Lovato-Light-webfont.eot');
     src: url('fonts/Lovato-Light-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/Lovato-Light-webfont.woff2') format('woff2'),
@@ -57,7 +57,7 @@
 }
 
 @font-face {
-    font-family: 'josefin_slabbold';
+    font-family: 'lower-latin';
     src: url('fonts/josefinslab-bold-webfont.eot');
     src: url('fonts/josefinslab-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/josefinslab-bold-webfont.woff2') format('woff2'),
