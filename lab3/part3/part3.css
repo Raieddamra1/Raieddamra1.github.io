@@ -106,7 +106,8 @@ a {
 a[href*="http"] {
   padding-right: 19px; 
   background:url(external-link-52.png) no-repeat 100% 0;
-  background-size: 16px 16px; 
+  background-size: 16px 16px;
+  color: #a66; 
 }
 
 a:link,a:visted{ 
