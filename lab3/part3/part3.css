@@ -107,6 +107,7 @@ a[href*="http"] {
   padding-right: 19px; 
   background:url(external-link-52.png) no-repeat 100% 0;
   background-size: 16px 16px;
+  background-size: contain;
   color: #a66; 
 }
 
@@ -155,6 +156,7 @@ nav li a { text-decoration: none;
   text-align: center;
   font-size: 2.5rem;
   border: 1px solid #a66;
+  color: #a66;
 }
 
 nav li a:focus,nav li a:hover{ 
@@ -165,4 +167,16 @@ nav li a:focus,nav li a:hover{
 nav li a:active {
     color: white;
     background: black;
+}
+
+ol li a {
+  color: #a66;
+}
+
+aside ul a {
+  color: #a66;
+}
+
+aside p a {
+  color: #a66;
 }
