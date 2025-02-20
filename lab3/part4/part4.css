@@ -74,7 +74,11 @@ article{
 nav ul{
   display: flex;
   flex: 1;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  display: flex;
+
 }
 
 .feature{
@@ -82,3 +86,9 @@ nav ul{
   margin-right: 20px;
 }
 
+aside ul{ 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  float: right;
+  gap: 1px;
+}
